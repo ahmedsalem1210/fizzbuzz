@@ -4,11 +4,13 @@
 // Make sure to look at test.script.js--that should give you some hints about what is
 // expected here.
 
-var fizzbuzz = function (x)  {
+'use strict';
+
+var fizzbuzz = function (x) {
 //
 // YOUR CODE GOES HERE
 //
   console.log("pizza");
 };
 
-module.exports = fizzbuzz;
+module.exports = { fizzbuzz: fizzbuzz };
